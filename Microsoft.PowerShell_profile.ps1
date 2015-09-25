@@ -9,7 +9,7 @@ set-alias vim "$(${env:ProgramFiles(x86)})\vim\vim74\vim.exe"
 set-alias 7zip "$(${env:ProgramFiles(x86)})\7-Zip\7z.exe"
 
 # add vim config
-$VimConfig = "$($env:LOCALAPPDATA)\VirtualStore\Program Files (x86)\vim\_vimrc"
+Set-Variable VimConfig -Option Constant -Value "$($env:LOCALAPPDATA)\VirtualStore\Program Files (x86)\vim\_vimrc" -Force
 
 # add cygwin
 set-alias cygwin "C:\cygwin64\Cygwin.bat"
