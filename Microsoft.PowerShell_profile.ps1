@@ -1,5 +1,4 @@
-﻿
-# add vim
+﻿# add vim
 set-alias vim "$(${env:ProgramFiles(x86)})\vim\vim74\vim.exe"
 
 # Load posh-git example profile
@@ -16,3 +15,10 @@ set-alias cygwin "C:\cygwin64\Cygwin.bat"
 
 # add ssh
 set-alias ssh "C:\cygwin64\bin\ssh.exe"
+
+# add pip 3.4
+Set-Alias pip "C:\Python34\Scripts\pip3.4.exe"
+
+# add scp (ssh copy)
+Set-Alias scp "C:\cygwin64\bin\scp.exe"
+
